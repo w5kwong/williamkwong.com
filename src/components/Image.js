@@ -1,10 +1,11 @@
 import React from 'react';
+import image from '../images/picture.PNG';
 
 class Image extends React.Component {
     render() {
         return (
             <div class="text-center">
-                <img src="../images/picture.png" class="rounded" alt="howdy!"></img>
+                <img width={492} height={397} alt="" src={image} />
             </div>
         )
     }
