@@ -1,7 +1,7 @@
-# Work-WilliamKwong
+# Personal Website
 
-Website code for williamkwong.me and williamkwong.com
+Source code for williamkwong.me and williamkwong.com
 
-Build using React.js and Bootstrap
+Built using React.js and Bootstrap
 
 Hosting on Firebase
