@@ -1,0 +1,10 @@
+.intro {
+    max-width: 840px;
+    padding-bottom: 20px;
+}
+
+.btn-group {
+    position: absolute;
+    right: 0;
+    padding-bottom: 20px;
+}

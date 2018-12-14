@@ -5,15 +5,16 @@ class Header extends React.Component {
     render() {
         return (
             <div class="jumbotron">
-                <h1 class="text-center display-1 margin-2">William Kwong</h1>
-                <div class="my-3 container">
-                    <h5 class="text-center">Toronto, Canada</h5>
-                    <h5 class="text-center">647-983-3751</h5>
-                    <h5 class="text-center">w5kwong@edu.uwaterloo.ca</h5>
+                <div class="container">
+                    <h2 class="intro">
+                        I'm William Kwong, a second year mechatronics engineering student at the University of Waterloo.
+                    </h2>
+                    <p class="lead">
+                        <strong>Currently:</strong> on coop at Autodesk Research in Toronto.
+                    </p>
                 </div>
-                <div class="my-5"></div>
-                <Buttons />
-            </div>  
+                {/* <Buttons /> */}
+            </div>
         )
     }
 }
