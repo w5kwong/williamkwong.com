@@ -7,7 +7,7 @@ class Header extends React.Component {
             <div class="jumbotron">
                 <div class="container">
                     <h2 class="intro">
-                        I'm William Kwong, a second year mechatronics engineering student at the University of Waterloo.
+                        I'm <span class="text-info">William Kwong</span>, a second year mechatronics engineering student at the University of Waterloo.
                     </h2>
                     <p class="lead">
                         <strong>Currently:</strong> on coop at Autodesk Research in Toronto.
