@@ -8,12 +8,9 @@ class Navigation extends React.Component {
         return (
             <nav class="navbar navbar-expand navbar-light d-flex" style={navStyle}>
                 <div class="container">
-                    <span class="navbar-text">
-                        Logo Here
-                    </span>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" target="_blank" href="https://docs.google.com/document/d/1qpLdWR1gZl34tqsJH1DmXGN7AXmSP81QmUOXAJ0R4LQ/export?format=pdf">Resume</a>
+                            <a class="nav-link" target="_blank" href="https://drive.google.com/open?id=1qQSZpN5ef1ZMDzZiNwEGZcP7trkUJ4qw">Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/w5kwong/">LinkedIn</a>
