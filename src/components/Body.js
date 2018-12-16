@@ -14,20 +14,20 @@ class Body extends React.Component {
                     <h3>Work Experience</h3>
                 </div>
                 <div class="row mb-4">
-                    <div class="col py-5 mx-2 my-2" style={cardStyle}>
-                        <img src={autodesk} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Responsive image"></img>
+                    <div class="col-md py-5 mx-2 my-2" style={cardStyle}>
+                        <img height="300px" width="300px" src={autodesk} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Autodesk Logo"></img>
                         <h5 class="text-center mt-4">CTO Research Intern - Autodesk</h5>
                     </div>
-                    <div class="col py-5 mx-2 my-2" style={cardStyle}>
-                        <img src={marketcircle} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Responsive image"></img>
+                    <div class="col-md py-5 mx-2 my-2" style={cardStyle}>
+                        <img src={marketcircle} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Marketcircle Logo"></img>
                         <h5 class="text-center mt-4">Backend Software Developer - Marketcircle</h5>
                     </div>
                     <div class="w-100"></div>
-                    <div class="col py-5 mx-2 my-2" style={cardStyle}>
-                        <img src={robot} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Responsive image"></img>
+                    <div class="col-md py-5 mx-2 my-2" style={cardStyle}>
+                        <img src={robot} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Robot Playtime Logo"></img>
                         <h5 class="text-center mt-4">Software Developer Intern - Robot Playtime</h5>
                     </div>
-                    <div class="col py-5 mx-2 my-2"></div>
+                    <div class="col-md py-5 mx-2 my-2"></div>
                 </div>
                 {/* <ul class="timeline">
                         <li>
@@ -43,6 +43,9 @@ class Body extends React.Component {
                             <p></p>
                         </li>
                     </ul> */}
+                {/* <div class="mb-4">
+                    <h3>Projects</h3>
+                </div> */}
             </div>
         )
     }

@@ -4,7 +4,7 @@ import Buttons from './Buttons';
 class Header extends React.Component {
     render() {
         return (
-            <div class="jumbotron">
+            <div class="jumbotron jumbotron-fluid">
                 <div class="container">
                     <h2 class="intro">
                         I'm <span class="text-info">William Kwong</span>, a second year mechatronics engineering student at the University of Waterloo.
