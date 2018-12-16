@@ -13,6 +13,10 @@
     width: 40%;
 }
 
+.Body:not(.load) {
+    display: none;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
