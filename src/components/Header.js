@@ -1,5 +1,4 @@
 import React from 'react';
-import Buttons from './Buttons';
 
 class Header extends React.Component {
     render() {

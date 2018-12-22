@@ -58,7 +58,7 @@ class Navigation extends React.Component {
                                   <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/w5kwong/">LinkedIn</a>
                               </li>
                               <li class="nav-item ml-auto">
-                                  <a class="nav-link" href="mailto: w5kwong@uwaterloo.ca">Contact Me</a>
+                                  <a class="nav-link" href="mailto: work.williamkwong@gmail.com">Contact Me</a>
                               </li>
                           </ul>
                       </div>
