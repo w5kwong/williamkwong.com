@@ -1,7 +1,7 @@
 import React from 'react';
-import autodesk from '../images/autodesk.jpg';
 import marketcircle from '../images/marketcircle.jpg';
 import robot from '../images/robot.jpg';
+import autodesk from '../images/autodesk.jpg';
 
 class Body extends React.Component {
     render() {
@@ -13,11 +13,11 @@ class Body extends React.Component {
                 <div class="mb-4">
                     <h3>Work Experience</h3>
                 </div>
-                <div class="row mb-4">
+                <div class="row mb-5">
                     <div class="col-md py-4 mx-3 my-2" style={cardStyle}>
-                        <img height="300px" width="300px" src={autodesk} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Autodesk Logo"></img>
+                        <img src={autodesk} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Autodesk Logo"></img>
                         <h4 class="text-center mt-4">Autodesk</h4>
-                        <h5 class="text-center">Research Intern, CTO</h5>
+                        <h5 class="text-center">Research Intern</h5>
                     </div>
                     <div class="col-md py-4 mx-3 my-2" style={cardStyle}>
                         <img src={marketcircle} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Marketcircle Logo"></img>
