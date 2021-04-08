@@ -14,6 +14,9 @@ class Header extends React.Component {
                     <h4 class="intro">
                         Currently — on my 3B study term
                     </h4>
+                    <h4 class="intro">
+                        Currently — on my 3B study term
+                    </h4>
                     {/* <p class="lead">
                         <strong>Currently:</strong> on my 2A study term at the University of Waterloo.
                     </p>
