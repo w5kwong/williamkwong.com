@@ -4,6 +4,8 @@ import robot from '../images/robot.jpg';
 import autodesk from '../images/autodesk.jpg';
 import bossinsights from '../images/bossinsights.png';
 import fairventures from '../images/fairventures.png';
+import purolator from '../images/purolator.jpg';
+import blackberry from '../images/blackberry.png';
 
 class Body extends React.Component {
     render() {
@@ -16,11 +18,25 @@ class Body extends React.Component {
                     <h3>Work Experience</h3>
                 </div>
                 <div class="row">
+                    {/* <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
+                        <img src={blackberry} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Blackberry Logo"></img>
+                        <h4 class="text-center mt-4">Blackberry</h4>
+                        <h5 class="text-center">Incoming Product Management Intern</h5>
+                    </div> */}
                     <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
                         <img src={fairventures} class="img-fluid mx-auto d-block pic img-thumbnail" alt="FairVentures Logo"></img>
                         <h4 class="text-center mt-4">FairVentures</h4>
                         <h5 class="text-center">Research Analyst</h5>
                     </div>
+                    <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
+                        <img src={purolator} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Purolator Logo"></img>
+                        <h4 class="text-center mt-4">Purolator</h4>
+                        <h5 class="text-center">Product Manager</h5>
+                    </div>
+                    {/* <div class="w-100"></div> */}
+                    {/* <div class="col-md py-5 mx-2 my-2"></div> */}
+                </div>
+                <div class="row mb-5">
                     <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
                         <img src={bossinsights} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Boss Insights Logo"></img>
                         <h4 class="text-center mt-4">Boss Insights</h4>
@@ -31,10 +47,6 @@ class Body extends React.Component {
                         <h4 class="text-center mt-4">Autodesk</h4>
                         <h5 class="text-center">Software Developer Intern</h5>
                     </div>
-                    {/* <div class="w-100"></div> */}
-                    {/* <div class="col-md py-5 mx-2 my-2"></div> */}
-                </div>
-                <div class="row mb-5">
                     <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
                         <img src={marketcircle} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Marketcircle Logo"></img>
                         <h4 class="text-center mt-4">Marketcircle</h4>

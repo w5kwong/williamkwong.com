@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
+    "bootstrap": "^4.6.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "3.0.1"
@@ -21,5 +21,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/helper-define-map": "^7.13.12",
+    "@babel/helper-regex": "^7.10.5"
+  }
 }
