@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../Kwong_William_Resume.pdf';
+// import pdf from '../Kwong_William_Resume.pdf';
 
 class Navigation extends React.Component {
     // render () {
@@ -55,11 +55,11 @@ class Navigation extends React.Component {
                       </button>
                       <div className={`${classOne}`} id="navbarResponsive">
                           <ul className="navbar-nav ml-auto">
-                              <li class="nav-item ml-auto">
+                              {/* <li class="nav-item ml-auto">
                                   <a class="nav-link" target="_blank" href={pdf}>Resume</a>
-                              </li>
+                              </li> */}
                               <li class="nav-item ml-auto">
-                                  <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/w5kwong/">LinkedIn</a>
+                                  <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/w5kwong/">Linkedin</a>
                               </li>
                               <li class="nav-item ml-auto" style={contactMe}>
                                   <a class="nav-link" href="mailto: work.williamkwong@gmail.com">Contact Me</a>
