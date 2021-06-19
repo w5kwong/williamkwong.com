@@ -18,11 +18,11 @@ class Body extends React.Component {
                     <h3>Work Experience</h3>
                 </div>
                 <div class="row">
-                    {/* <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
+                    <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
                         <img src={blackberry} class="img-fluid mx-auto d-block pic img-thumbnail" alt="Blackberry Logo"></img>
                         <h4 class="text-center mt-4">Blackberry</h4>
-                        <h5 class="text-center">Incoming Product Management Intern</h5>
-                    </div> */}
+                        <h5 class="text-center">Product Management Intern</h5>
+                    </div>
                     <div class="col-md py-4 mx-2 my-2" style={cardStyle}>
                         <img src={fairventures} class="img-fluid mx-auto d-block pic img-thumbnail" alt="FairVentures Logo"></img>
                         <h4 class="text-center mt-4">FairVentures</h4>
